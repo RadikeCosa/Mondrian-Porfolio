@@ -1,0 +1,75 @@
+{
+  "home": {
+    "name": "Ramiro",
+    "surname": "Cosa",
+    "title1": "Full",
+    "title2": "Stack",
+    "cap1": "que es full",
+    "cap2": "que es stack"
+  },
+  "about": [
+    {
+      "title": "Programador",
+      "description": "Soy capo programando bro",
+      "image": "https://github.com/RadikeCosa/ramirocosa-porfolio/issues/4"
+    },
+    {
+      "title": "Kinesiologo",
+      "description": "Era bastante buen kine, hice de todo che",
+      "image": "https://github.com/RadikeCosa/ramirocosa-porfolio/issues/4"
+    },
+    {
+      "title": "Musico",
+      "description": "Por ahi decir que soy musico es un poco mucho pero todos mienten",
+      "image": "https://github.com/RadikeCosa/ramirocosa-porfolio/issues/4"
+    }
+  ],
+  "skills": [
+    {
+      "name": "html",
+      "type": "hard",
+      "cap": "me doy maña con html",
+      "icon": "aca un svg idealmente"
+    },
+    {
+      "name": "escucha activa",
+      "type": "soft",
+      "cap": "sabes las cosas que he escuchado",
+      "icon": "aca un svg idealmente"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Alegrapp",
+      "description": "app para equipo de atencion domiciliaria",
+      "repo": "link de repo",
+      "deploy": "version en produccion",
+      "image": "una imagen para ilustrar",
+      "version": "0.0.1"
+    },
+    {
+      "name": "Porfolio",
+      "description": "es un porfolio",
+      "repo": "",
+      "deploy": "",
+      "imagen": "imagen",
+      "version": "0.0.1"
+    }
+  ],
+  "blog": [
+    {
+      "name": "",
+      "author": "",
+      "description": "",
+      "link": ""
+    }
+  ],
+  "footer": {
+    "github": "",
+    "codepen": "",
+    "linkedin": "",
+    "devto": "",
+    "mail": "",
+    "twitter": ""
+  }
+}

@@ -1,0 +1,97 @@
+.container {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.4fr;
+  grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr 0.4fr;
+  grid-auto-columns: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0.5px 2px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header header header header header header header header header header right-bar"
+    "left-bar selector selector selector selector selector selector visor visor visor visor visor right-bar"
+    "left-bar selector selector selector selector selector selector visor visor visor visor visor right-bar"
+    "left-bar selector selector selector selector selector selector visor visor visor visor visor right-bar"
+    "left-bar cinco cinco cinco full full full siete siete ocho ocho ocho right-bar"
+    "left-bar cinco cinco cinco stack stack stack seis seis ocho ocho ocho right-bar"
+    "footer footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.header {
+  grid-area: header;
+  border: 1px solid black;
+  background-color: var(--white);
+}
+
+.footer {
+  grid-area: footer;
+  border: 1px solid black;
+  background-color: var(--blue);
+}
+
+.left-bar {
+  grid-area: left-bar;
+  border: 1px solid black;
+  background-color: var(--white);
+}
+
+.right-bar {
+  grid-area: right-bar;
+  border: 1px solid black;
+  background-color: var(--white);
+}
+
+.visor {
+  grid-area: visor;
+  border: 1px solid black;
+  background-color: var(--white);
+}
+
+.selector {
+  grid-area: selector;
+  border: 1px solid black;
+  background-color: var(--blue);
+}
+
+.cinco {
+  grid-area: cinco;
+  border: 1px solid black;
+  background-color: var(--white);
+}
+
+.seis {
+  grid-area: seis;
+  border: 1px solid black;
+  background-color: var(--blue);
+}
+
+.siete {
+  grid-area: siete;
+  border: 1px solid black;
+  background-color: var(--white);
+}
+
+.ocho {
+  grid-area: ocho;
+  border: 1px solid black;
+  background-color: var(--red);
+}
+
+.full {
+  grid-area: full;
+  border: 1px solid black;
+  background-color: var(--yellow);
+}
+
+.stack {
+  grid-area: stack;
+  border: 1px solid black;
+  background-color: var(--white);
+}
+
+html,
+body,
+.container {
+  height: 100%;
+  margin: 0;
+  background-color: var(--background);
+}
