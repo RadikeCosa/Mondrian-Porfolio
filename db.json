@@ -1,12 +1,14 @@
 {
-  "home": {
-    "name": "Ramiro",
-    "surname": "Cosa",
-    "title1": "Full",
-    "title2": "Stack",
-    "cap1": "que es full",
-    "cap2": "que es stack"
-  },
+  "home": [
+    {
+      "name": "Ramiro",
+      "surname": "Cosa",
+      "title1": "Full",
+      "title2": "Stack",
+      "cap1": "que es full",
+      "cap2": "que es stack"
+    }
+  ],
   "about": [
     {
       "title": "Programador",

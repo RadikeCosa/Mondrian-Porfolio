@@ -7,16 +7,18 @@
   <div class="right-bar"><app-right-bar></app-right-bar></div>
   <div class="visor"></div>
   <div class="selector">
-    <h1>{{ data.name }}</h1>
-    <h2>{{ data.surname }}</h2>
+    <div>
+      <h1 class="name">{{ data[0].name }} {{ data[0].surname }}</h1>
+      <h1></h1>
+    </div>
+    <div class="surname"></div>
   </div>
   <div class="cinco"></div>
   <div class="seis"></div>
   <div class="siete"></div>
   <div class="ocho"></div>
   <div class="full">
-    <h2>{{ data.title1 }}</h2>
-    <p>{{ data.cap1 }}</p>
+    <app-full [data]="data"></app-full>
   </div>
   <div class="stack">
     <h2>{{ data.title2 }}</h2>

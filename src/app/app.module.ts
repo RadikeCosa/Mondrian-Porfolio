@@ -12,6 +12,7 @@ import { FooterComponent } from './components/commons/footer/footer.component';
 import { RightBarComponent } from './components/commons/right-bar/right-bar.component';
 import { LeftBarComponent } from './components/commons/left-bar/left-bar.component';
 import { PageNotFoundComponent } from './components/pages/page-not-found/page-not-found.component';
+import { FullComponent } from './components/pages/home-page/full/full.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { PageNotFoundComponent } from './components/pages/page-not-found/page-no
     RightBarComponent,
     LeftBarComponent,
     PageNotFoundComponent,
+    FullComponent,
   ],
   imports: [
     BrowserModule,

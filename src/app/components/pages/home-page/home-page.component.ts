@@ -8,14 +8,7 @@ import { HomeService } from 'src/app/services/home.service';
   styleUrls: ['./home-page.component.scss'],
 })
 export class HomePageComponent implements OnInit {
-  public data: IHome | any = {
-    name: '',
-    surname: '',
-    title1: '',
-    title2: '',
-    cap1: '',
-    cap2: '',
-  };
+  public data: IHome[] | any = [];
   constructor(private homeService: HomeService) {}
 
   ngOnInit() {
