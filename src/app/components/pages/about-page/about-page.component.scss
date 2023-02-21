@@ -1,0 +1,84 @@
+html,
+body,
+.container {
+  height: 100%;
+  margin: 0;
+  background-color: var(--background);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 0.4fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 0.4fr;
+  grid-template-rows: 0.4fr 1fr 1fr 1fr 1fr 1fr 0.4fr;
+  grid-auto-columns: 1fr;
+  gap: 2px 3px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "header header header header header header header header header header header header right-bar"
+    "left-bar cinco cinco cinco seis seis visor visor visor visor visor visor right-bar"
+    "left-bar cinco cinco cinco siete ocho visor visor visor visor visor visor right-bar"
+    "left-bar selector selector selector selector selector visor visor visor visor visor visor right-bar"
+    "left-bar selector selector selector selector selector visor visor visor visor visor visor right-bar"
+    "left-bar selector selector selector selector selector visor visor visor visor visor visor right-bar"
+    "footer footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.header {
+  grid-area: header;
+  background-color: var(--white);
+}
+
+.footer {
+  grid-area: footer;
+  background-color: var(--white);
+}
+
+.left-bar {
+  grid-area: left-bar;
+  background-color: var(--white);
+}
+
+.right-bar {
+  grid-area: right-bar;
+  background-color: var(--white);
+}
+
+.visor {
+  grid-area: visor;
+  background-color: var(--yellow);
+}
+
+.selector {
+  grid-area: selector;
+  background-color: var(--red);
+}
+
+.cinco {
+  grid-area: cinco;
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.seis {
+  grid-area: seis;
+  background-color: var(--white);
+}
+
+.siete {
+  grid-area: siete;
+  background-color: var(--white);
+}
+
+.ocho {
+  grid-area: ocho;
+  background-color: var(--white);
+}
+
+html,
+body,
+.container {
+  height: 100%;
+  margin: 0;
+}
+
+/* For presentation only, no need to copy the code below */
