@@ -1,6 +1,5 @@
 html,
-body,
-.container {
+body {
   height: 100%;
   margin: 0;
   font-family: "Avenir", sans-serif;
@@ -13,4 +12,9 @@ body,
   --blue: rgba(64, 64, 154, 1);
   --background: rgba(0, 0, 0, 1);
   --white: rgba(255, 255, 255, 1);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }

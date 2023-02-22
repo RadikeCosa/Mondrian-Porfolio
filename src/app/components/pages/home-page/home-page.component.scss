@@ -3,7 +3,6 @@ body,
 .container {
   height: 100%;
   margin: 0;
-  background-color: var(--background);
 }
 .container {
   display: grid;
@@ -28,26 +27,41 @@ h1 {
   margin: 0;
 }
 .header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: header;
   background-color: var(--white);
 }
 
 .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: footer;
   background-color: var(--white);
 }
 
 .left-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: left-bar;
   background-color: var(--white);
 }
 
 .right-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: right-bar;
   background-color: var(--white);
 }
 
 .visor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: visor;
 
   background-color: var(--white);
@@ -62,34 +76,55 @@ h1 {
 }
 
 .cinco {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: cinco;
   background-color: var(--white);
 }
 
 .seis {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: seis;
   background-color: var(--blue);
 }
 
 .siete {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: siete;
   background-color: var(--white);
 }
 
 .ocho {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: ocho;
   background-color: var(--red);
 }
 
 .full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: full;
   background-color: var(--yellow);
 }
 
 .stack {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-area: stack;
   background-color: var(--white);
 }
 .name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--white);
 }

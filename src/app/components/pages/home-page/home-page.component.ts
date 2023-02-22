@@ -9,6 +9,7 @@ import { HomeService } from 'src/app/services/home.service';
 })
 export class HomePageComponent implements OnInit {
   public data: IHome[] | any = [];
+
   constructor(private homeService: HomeService) {}
 
   ngOnInit() {
@@ -16,11 +17,9 @@ export class HomePageComponent implements OnInit {
   }
 
   public loadData() {
-    this.homeService
-      .getHomeData('http://localhost:3000/home')
-      .subscribe((respuesta) => {
-        console.log(respuesta);
-        this.data = respuesta;
-      });
+    this.homeService.getHomeData().subscribe((respuesta) => {
+      console.log(respuesta);
+      this.data = respuesta;
+    });
   }
 }

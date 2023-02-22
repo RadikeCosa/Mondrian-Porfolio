@@ -7,7 +7,7 @@ import { HttpClient } from '@angular/common/http';
 export class HomeService {
   constructor(private http: HttpClient) {}
 
-  public getHomeData(url: string) {
-    return this.http.get(url);
+  public getHomeData() {
+    return this.http.get('http://localhost:3000/home');
   }
 }
