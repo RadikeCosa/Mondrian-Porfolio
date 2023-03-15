@@ -8,7 +8,7 @@ import { HomeService } from 'src/app/services/home.service';
   styleUrls: ['./home-page.component.scss'],
 })
 export class HomePageComponent implements OnInit {
-  public data: IHome[] | any = [];
+  public data: any = [];
 
   constructor(private homeService: HomeService) {}
 
